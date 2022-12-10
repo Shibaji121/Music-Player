@@ -1,0 +1,389 @@
+body {
+    background-color: #0c1027;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Header Section*/
+header img {
+    height: 80px;
+    width: 200px;
+}
+#body-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+#left-header {
+    width: 30vw;
+    color: white;
+    display: inline-flex;
+}
+#favourite {
+    height: 0px;
+    margin: 2rem 5rem;
+    padding: 0rem;
+    font-size: 25px;
+}
+#right-header {
+    width: 25vw;
+    margin-left: 24%;
+    padding: 0.5rem;
+    display: inline-flex;
+}
+#search-bar {
+    height: 40px;
+    width: 400px;
+    background-color: #1a255a;
+    border-radius: 20px;
+}
+#search-bar i {
+    padding: 0.8rem;
+    color: whitesmoke;
+}
+#search-bar input {
+    border: none;
+    padding: 0;
+    background-color: #1a255a;
+}
+#search-bar input::placeholder {
+    font-size: 15px;
+}
+.fa-microphone {
+    float: right;
+}
+#notification-bar {
+    display: flex;
+    margin-right: 85px;
+    width: 25%
+}
+#notification-bar i {
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin: 0em 2rem;
+}
+#notification-bar img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Carouse Section */
+#main-left {
+    width: 60vw;
+    margin-left: 8rem;
+}
+#carouse {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(360deg,#1a255a 60% , gray);
+    margin: 0%;
+    padding: 0;
+}
+#coldplay-img {
+    height: 400px;
+    width: 400px;
+}
+#coldplay-img img{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0px 0px 15px 7px #1a255a;
+}
+#about-coldplay {
+    width: 30vw;
+    min-width: 30vw;
+    color: white;
+}
+#about-header {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 1.5rem;
+    margin-top: 15%;
+}
+#about-coldplay p {
+    width: 100%;
+    min-width: 30vw;
+    color: lightgray;
+    font-size: 00.8em;
+    margin: -15px 0px 25px 1.5rem;
+}
+#followers {
+    height: 0;
+    margin-top: 20px !important;
+    margin-inline-start: 280px !important;
+}
+#carouse-btn button{
+    height: 2.5em;
+    width: 9em;
+    margin-left: 1.5rem;
+    background-color: #1a255a;
+    border: none;
+    color: white;
+}
+#playAll-btn {
+    background: linear-gradient(90deg,#3624af, #c549e0);
+}
+#carouse-btn button:hover {
+    background: linear-gradient(90deg,#3624af, #c549e0);
+    font-weight: 1000;
+}
+#carouse-btn p{
+    margin: 10px 0px 25px 1.5rem;
+    color: whitesmoke;
+}
+
+/* Songs Section */
+#songs-list {
+    width: 100%;
+}
+.song-panel {
+    background-color: #1a1e33;
+    margin: 1rem 0rem;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+.count {
+    margin: 0rem 1rem;
+}
+.song-logo {
+    margin-right: 1rem;
+}
+.song-logo img{
+    height: 40px;
+    width: 40px;
+    box-shadow: 0px 0px 17px 0px wheat;
+}
+.song-logo i {
+    display: none;
+    transition: ease-in 0.5s linear;
+}
+.song-logo:hover i{
+    display: block;
+    transform: scale(1.5);
+    position: absolute;
+    margin: 14px;
+    box-shadow: 0px 0px 17px 1px wheat;
+}
+.song-name p, .song-name h4 {
+    margin: 0px;
+    width: 10rem;
+}
+.song-name p {
+    color: gray;
+    font-size: 0.8rem;
+}
+.song-panel-right {
+    display: inline-flex;
+    margin: 0rem 2rem 0rem 32rem;
+    align-items: center;
+}
+.song-panel-right i {
+    font-size: 20px;
+}
+.song-panel-right i:hover {
+    color: red;
+    transform: scale(1.5);
+}
+.like-symbol {
+    margin: 0rem 2rem;
+}
+
+/* Aside Section */
+.font-adjustment {
+    color: gray;
+    font-size: 0.8em;
+}
+#aside-section {
+    width: 30vw;
+    margin: 0rem 2.5rem;
+    color: white;
+}
+/* Similar Artist Section */
+#similar-artist {
+    color: white;
+}
+.aside-headers {
+    display: inline-flex;
+    align-items: baseline;
+    margin-top: -1.2rem;
+}
+.aside-headers span {
+    position: absolute;
+    padding: 2rem;
+    right: 0;
+}
+.artist {
+    display: inline-flex;
+}
+.artist-logo img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 0.8rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 1px gray;
+}
+.artist-details {
+    margin-left: 2rem;
+}
+.artist-details i {
+    position: absolute;
+    padding: 0rem 2rem;
+    right: 0;
+}
+.artist-details span {
+    position: absolute;
+    right: 0px;
+    padding: 0rem 2rem;
+    margin: -2.4rem 0px;
+}
+.artist-details p {
+    margin: -12px 0px;
+}
+
+/* Recently played section */
+.recent-songs {
+    /* width: 30vw; */
+    background-color: #0c1027;
+}
+.recent-songs-right {
+    margin-left: 22%;
+}
+
+/* Footer */
+footer {
+	position: fixed;
+	bottom: 1px;
+	width: 100%;
+	height: 60px;
+	background-color: #282828;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	flex-wrap: nowrap;
+	padding: 0px 3%;
+	box-sizing: border-box;
+	z-index: 6;
+    color: wheat;
+}
+.active-song-description {
+	height: 90%;
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+#song-image {
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height: 50px;
+}
+#song-image img {
+	width: 100%;
+	height: 100%;
+}
+.heart-and-ban-icon {
+	height: 100%;
+	padding-top: 4%;
+}
+.song-desc {
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.song-desc div:nth-child(1) {
+	font-size: 14px;
+}
+.song-desc div:nth-child(2) {
+	font-size: 12px;
+}
+
+.player {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+.controls {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+}
+.fa-pause {
+    border: 0.5px solid wheat;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+#slider {
+	width: 100%;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5px;
+}
+.time {
+	margin: 0px 10px;
+}
+.slidecontainer {
+	width: 100%;
+}
+.slider {
+	width: 100%;
+	height: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.5;
+	-webkit-transition: 0.2s;
+	transition: opacity 0.2s;
+}
+.slider:hover {
+	opacity: 1;
+}
+
+/* these are for adjusting the dimensions and default styling of the long-slider */
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background: #3cff00;
+	cursor: pointer;
+}
+
+/* this is the circular thumb, which can be moved across the div */
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #4caf50;
+	cursor: pointer;
+}
+.extras {
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}

@@ -1,0 +1,80 @@
+@media screen and (max-width: 1200px) {
+
+    #right-header {
+        margin-left: 12%;
+    }
+    #about-coldplay p {
+        width: 40%;
+        min-width: 20vw;
+        margin: -15px 0px 25px 1.5rem;
+    }
+    #followers {
+        margin-top: 20px !important;
+        margin-inline-start: 20px !important;
+    }
+    #carouse-btn p{
+        margin: 10px 10px 25px 1.5rem;
+    }
+    .aside-headers span {
+        display: none;
+    }
+    .artist-details span {
+        display: none;
+    }
+    .song-panel-right {
+        margin: 0rem 2rem 0rem 20rem;
+    }
+    .recent-songs-right {
+        display: none;
+    }
+    #carouse-btn button {
+        width: 6em;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+
+    #favourite, #search-bar{
+        display: none;
+    }
+    #right-header {
+        margin-left: 8%;
+    }
+    #about-coldplay p {
+        width: 100%;
+        min-width: 30vw;
+        color: lightgray;
+        font-size: 00.8em;
+        margin: -15px 0px 25px 1.5rem;
+    }
+    #followers {
+        margin-top: 20px !important;
+        margin-inline-start: 280px !important;
+    }
+    #carouse-btn p{
+        margin: 10px 0px 25px 1.5rem;
+    }
+    .song-panel-right {
+        margin: 0rem 2rem 0rem 35rem;
+    }
+    #carouse-btn button {
+        width: 9em;
+    }
+    #aside-section {
+        display: none;
+    }
+    #main-left {
+        width: 100vw;
+        margin-left: 0rem;
+    }
+}
+@media screen and (max-width: 700px) {
+
+    #followers {
+        display: none;
+    }
+    .song-panel-right {
+        margin: 0rem 2rem 0rem 15rem;
+    }
+
+}
